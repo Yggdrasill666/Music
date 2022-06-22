@@ -60,5 +60,11 @@
         <file>resource/image/voice.png</file>
         <file>qml/Actions.qml</file>
         <file>qml/MainWindow.qml</file>
+        <file>qml/Dialogs.qml</file>
+        <file>qml/Content.qml</file>
+        <file>qml/SongSearchDialog.qml</file>
+        <file>qml/LyricShow.qml</file>
+        <file>qml/SongList.qml</file>
+        <file>qml/MusicPlayer.qml</file>
     </qresource>
 </RCC>

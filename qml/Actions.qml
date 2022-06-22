@@ -7,6 +7,7 @@ Item {
     property alias lastAction: last
     property alias playAction: play
     property alias openFileAction: openFile
+    property alias aboutAction: about
     Action {
         id: search
         text: qsTr("搜索歌曲")
@@ -36,5 +37,10 @@ Item {
     Action {
         id: openFile
         text: qsTr("打开文件")
+    }
+    Action {
+        id: about
+        text: qsTr("&About")
+        icon.name: "help-about"
     }
 }
